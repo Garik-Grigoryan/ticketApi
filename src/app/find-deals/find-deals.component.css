@@ -1,0 +1,537 @@
+.coverPhotoContainer {
+    min-height: 18.75em;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+	padding: 0 1.875em;
+    height: inherit;
+    max-width: 68.5em;
+    padding-right: 0;
+}
+
+.challenger-cover-photo {
+    margin-bottom: 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    background: #95979e;
+    width: 100%;
+    /* color: #fff; */
+    top: auto;
+}
+
+.coverPhotoBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/layout/brands/cheapflights/sky.jpg?v=5af3e547fb16a773318cf7521c3a73a8a70a7b91&cluster=5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 645px;
+    background-position: center;
+    opacity: 1;
+    transition: opacity 2s ease,height .15s ease;
+}
+
+.coverPhoto.overlay {
+    padding-bottom: 0;
+}
+
+.coverPhoto {
+    position: relative;
+    width: 100%;
+    padding-top: 0;
+    display: block;
+    height: auto;
+    top: 0;
+    left: 0;
+    background-position-x: center;
+    background-position-y: 0;
+    background-size: cover;
+    padding: 46px 0;
+}
+
+.coverPhoto .coverPhotoInner {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.coverPhotoContentWrapper {
+    max-width: 960px;
+    width: 82.688em;
+}
+
+.primary {
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+
+.flightsVisible {
+    padding-top: 17px;
+}
+
+.pageTitle {
+    font-size: 2.1875em;
+    margin-top: 0;
+    margin-bottom: 35px;
+    color: #fff;
+    text-align: center;
+}
+
+a.nav-link, a.nav-link.active {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    background-color: #535964;
+    border-radius: 4px 4px 0 0;
+    padding: 12px 20px;
+    text-shadow: none;
+    color: #fff;
+    font-weight: 600;
+    border-color: #535964;
+}
+
+a.nav-link.active {
+    color: #ffd600;
+}
+
+a.nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    margin: 0 auto -11px;
+    border-top: solid 11px #535964;
+    border-left: solid 11px transparent;
+    border-right: solid 11px transparent;
+    z-index: 10;
+}
+
+li.nav-item {
+    padding: 0 1px;
+}
+
+.tab-content {
+    background: #fff;
+}
+
+.tab-content>.active {
+    color: black !important;
+}
+
+.formGrid {
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+}
+
+.formContainer {
+    padding: 38px 23px 20px 38px;
+    border-right: solid 1px #d4d6d8;
+    flex: 0 0 auto;
+    width: 55.556%;
+    display: inline-block;
+}
+
+.partnersContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 40px;
+    display: block;
+    z-index: 1;
+    width: 44.444%;
+}
+
+.rtow {
+    position: relative;
+}
+
+.search-form-grid {
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 0 -2px -4px;
+}
+
+.search-form-grid>* {
+    margin-bottom: 4px;
+    padding: 0 2px;
+}
+
+.field-grid {
+    margin: 0 -2px -4px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.field-grid>div {
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+.fieldBlock .formLabel {
+    margin: 0 0 5px;
+    font-size: 14px;
+    color: #535964;
+}
+
+.fieldBlock input {
+    color: #28303d;
+    border-color: transparent;
+    background-color: #e9eaeb;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 42px;
+}
+
+.fieldBlock .Common-Widgets-Text-TextInput:not(.dateInput) {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/location.svg?v=89f789d22d990fd96ae24ba20236af8aab6b953b&cluster=5);
+    background-repeat: no-repeat;
+    background-size: 2.1875em 2.5em;
+    fill: #28303d;
+    padding-left: 2.8125em;
+    background-position: .3125em center;
+}
+
+.displayCatBlock {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.Common-Widgets-Radio-RadioButtonSet {
+    flex-wrap: wrap;
+    display: inline-flex;
+    align-items: baseline;
+    margin: 0 -10px;
+    position: relative;
+    z-index: 1;
+    font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif;
+    font-weight: 500;
+    color: #101217;
+    line-height: 2.25em;
+    padding: 1px;
+    outline: none;
+}
+
+.Common-Widgets-Radio-RadioButtonSet input.hidden {
+    display: none;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.Common-Widgets-Radio-RadioButtonSet label.focus {
+    text-decoration: none;
+}
+
+.Common-Widgets-Radio-RadioButtonSet .r9-radiobuttonset-label.r9-radiobuttonset-label-checked::before {
+    background-color: #28303d;
+    display: inline-block;
+    content: '';
+    height: 22px;
+    width: 22px;
+    border: 2px solid #28303d;
+    border-radius: 50%;
+    background-clip: content-box;
+    padding: 4px;
+    margin: 0 5px -5px 0;
+}
+
+.Common-Widgets-Radio-RadioButtonSet .r9-radiobuttonset-label::before {
+    display: inline-block;
+    content: '';
+    height: 22px;
+    width: 22px;
+    border: 2px solid #28303d;
+    border-radius: 50%;
+    background-clip: content-box;
+    background-color: #fff;
+    padding: 4px;
+    margin: 0 5px -5px 0;
+}
+
+.label-text {
+    color: #535964;
+    font-size: 16px;
+    font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
+    font-weight: 400;
+}
+
+.r9-radiobuttonset-label {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    width: auto;
+    position: relative;
+    float: left;
+    padding: 0 .5em;
+    z-index: 1;
+    border: none;
+    color: #95979e;
+    box-shadow: none;
+    border-radius: 0;
+    transition: .2s ease-in-out;
+    height: 42px;
+    box-sizing: border-box;
+    font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif;
+    font-weight: 500;
+    letter-spacing: .03em;
+    font-size: inherit;
+    line-height: 2.625em;
+}
+
+.col.switch, .col.col-airport {
+    width: 50%;
+}
+
+.col.gridCellDisplayCat, .col-date.single-date-picker {
+    width: 100%;
+}
+
+.Common-Widgets-Datepicker-DateRangeInput {
+    font-size: 16px;
+    background-color: #e9eaeb;
+    border-color: transparent;
+    border-radius: 4px;
+    color: #535964;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.04);
+    border-left: 0;
+    border-right: 0;
+    border-top: 2px solid;
+    border-top-color: transparent!important;
+    border-bottom-width: 2px;
+    border: 1px solid #e3e4e6;
+}
+
+.dateRangeGrid {
+    display: flex;
+    height: 38px;
+    margin: 0;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.dateRangeGrid .col-start {
+    width: 50%;
+    flex: 0 0 auto;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.Common-Widgets-Datepicker-DateInput {
+    padding-left: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #e9eaeb;
+    border-color: transparent;
+    border-radius: 4px;
+    color: #535964;
+    background-image: url(https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/date.svg?v=39d1ec850f8c4641ac96f055b5a86a8f6934fcc1&cluster=5);
+    background-repeat: no-repeat;
+    background-size: 2.1875em 2.5em;
+    fill: #28303d;
+    background-position: .3125em center;
+    box-shadow: none;
+    height: 38px;
+    line-height: 38px;
+}
+
+.col-travelers, .col.button-col {
+    width: 100%;
+}
+
+.Common-Widgets-Dropdown-DropdownDialog {
+    margin: 0 0 10px;
+    font-size: 16px;
+    background-color: #e9eaeb;
+    border-color: transparent;
+    border-radius: 4px;
+    color: #535964;
+    background-clip: border-box;
+    border-left: 0;
+    border-right: 0;
+    border-top: 2px solid transparent!important;
+    border-bottom-width: 2px;
+    font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif;
+    font-weight: 600;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.04);
+    border: 0;
+    border-bottom: 2px solid transparent;
+    line-height: 2.625em;
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    outline: none;
+    letter-spacing: .03em;
+    padding: 0 1.25em 0 .625em;
+}
+
+.Common-Widgets-Dropdown-DropdownDialog.select .label {
+    -ms-flex: 1;
+    flex: 1 1 auto;
+    color: #535964;
+    font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif;
+    font-weight: 600;
+    float: none;
+    width: 100%;
+    font-size: inherit;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    line-height: inherit;
+    padding-right: .215em;
+}
+
+.Common-Widgets-Dropdown-DropdownDialog .icon {
+    display: inline-block;
+    color: #191c24;
+    width: 13px;
+    height: 9px;
+    margin-top: 0;
+    float: right;
+    transition: transform .2s;
+}
+
+.fieldBlock.travelersBlock, a.Common-Widgets-Dropdown-DropdownDialog {
+    display: flex;
+}
+
+.Common-Widgets-Button-Button.searchButton {
+    position: relative;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 100px;
+    background-color: #006dcc;
+    border-radius: 4px;
+    border-bottom: solid 3px #0971c6;
+    height: 50px;
+    top: 1px;
+    box-shadow: none;
+    transform: none;
+    background: #006dcc;
+    width: 100%;
+    border: 1px solid #0971c6;
+}
+
+.searchButton span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Common-Widgets-Checkbox-Checkbox.toggle input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0;
+}
+
+.Common-Widgets-Checkbox-Checkbox .icon {
+    border: 1px solid #95979e;
+    transition: border-color 200ms ease-out,background-color 200ms ease-out;
+    height: 1.25em;
+    width: 1.25em;
+    display: block;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+
+.Common-Widgets-Checkbox-Checkbox .icon:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    transition: transform 100ms ease-out;
+    transition-delay: 100ms;
+    background: #fff;
+}
+
+.Common-Widgets-Checkbox-Checkbox .icon:after {
+    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjQgNCAyMiAyMiI+PHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjQuNDIgOS4wMWMuMTEuMS4xMi4yNy4wMy4zOEwxMy43NCAyMi4zMWMtLjA2LjA3LS4xNS4xMS0uMjMuMS0uMDUtLjAxLS4xMS0uMDMtLjE1LS4wNmwtNi44NS01LjYyYy0uMTItLjEtLjEzLS4yNi0uMDQtLjM3bDEuNTUtMmMuMDktLjEyLjI2LS4xMy4zNy0uMDRsNC42NSAzLjkxTDIyLjA1IDcuNWMuMDktLjExLjI2LS4xMi4zNy0uMDNsMiAxLjU0em0wIDAiLz48L3N2Zz4=);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: border-color 200ms ease-out,opacity 200ms ease-out;
+    transition-delay: 0s;
+    background-color: #535964;
+    line-height: 0;
+}
+
+.col-toggle .toggle .label {
+    color: #535964;
+    text-transform: none;
+    font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 1em;
+    margin-bottom: 20px;
+    height: 20px;
+    line-height: 20px;
+    overflow-y: hidden;
+    text-align: left;
+}
+
+.partnersContainer .partnersTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #535964;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 70px;
+}
+
+.partnersContainer .partners {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.partnersContainer .partners-col {
+    width: 50%;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.partnersContainer .partners-col.large-padding-left {
+    padding-left: 34px;
+}
+
+.partnersContainer .partners-col img {
+    width: 100px;
+    height: auto;
+    min-height: 54px;
+    border-style: none;
+}

@@ -1,0 +1,116 @@
+.container {
+	padding: 0 1.875em;
+    height: inherit;
+    max-width: 68.5em;
+    padding-right: 0;
+}
+
+.destinations-wrapper {
+    background-color: #fff;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header {
+    cursor: auto;
+    margin-bottom: 8px;
+}
+
+.header h2 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 22px;
+    color: #28303d;
+    margin: 10px 0 0 0;
+    position: relative;
+    font-weight: 400;
+}
+
+.TopDestinations {
+    padding: 0 0 50px;
+}
+
+.top-destination-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-destination {
+    padding: 0 30px;
+    width: 33.333%;
+    display: inline-block;
+}
+
+.TopDestinations .i {
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 240px;
+    margin: 0 auto;
+    height: 208px;
+    background-size: contain;
+    background-position: center;
+}
+
+.TopDestinations .title {
+    background: #535964;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 12px 16px;
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    text-align: left;
+    margin: 0 0 1px;
+}
+
+.top-destination ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-destination li.destination {
+    text-align: left;
+    color: #006dcc;
+    font-size: 16px;
+    background-color: #f2f2f5;
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 0 0 1px;
+}
+
+li.destination a {
+    color: #005eb0;
+    text-decoration: none;
+    outline: none;
+}
+
+.i.north-america {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/frontdoor/brands/cheapflights/north-america.svg?v=1f43045ff65f06fb0444a9d2d15fcdd7b303ad60&cluster=5);
+}
+
+.i.south-america {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/frontdoor/brands/cheapflights/south-america.svg?v=b6a2ce259f4f76b62ff6a8922c30ccf92e895c72&cluster=5);
+}
+
+.i.europe {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/frontdoor/brands/cheapflights/europe.svg?v=6a79ffea1024d162c504de78cfbe7a25430d0c9d&cluster=5);
+}
+
+.i.africa {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/frontdoor/brands/cheapflights/africa.svg?v=90880cbbf8ef9b7b1f1ef995315f9b3435c2613c&cluster=5);
+}
+
+.i.asia {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/frontdoor/brands/cheapflights/asia.svg?v=57447dd9238a8417f630ca2e3e3e5546535ef832&cluster=5);
+}
+
+.i.oceania {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/frontdoor/brands/cheapflights/oceania.svg?v=2a054c6657377287b797516daa7b0c963a22b309&cluster=5);
+}
+

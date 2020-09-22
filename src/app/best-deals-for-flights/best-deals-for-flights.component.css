@@ -1,0 +1,56 @@
+.container {
+	padding: 0 1.875em;
+    height: inherit;
+    max-width: 68.5em;
+    padding-right: 0;
+}
+
+.best-deals-wrapper {
+    background-color: #f2f2f5;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header {
+    cursor: auto;
+    margin-bottom: 8px;
+}
+
+.header h2 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 22px;
+    color: #28303d;
+    margin: 10px 0 0 0;
+    position: relative;
+    font-weight: 400;
+}
+
+.BestDeals {
+    padding: 10px 0 50px;
+}
+
+.best-deals-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.best-deals-content .col {
+    display: inline-block;
+    column-count: 2;
+    width: 100%;
+}
+
+.best-deals-content p {
+    color: #535964;
+    font-size: 16px;
+    margin: 0 0 24px 0;
+    line-height: 24px;
+}
+
+.best-deals-content .question {
+    font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif;
+    font-weight: 600;
+    margin-bottom: 12px;
+}

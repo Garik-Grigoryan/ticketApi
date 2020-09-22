@@ -1,0 +1,89 @@
+.popularDeparturePoints {
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+.container {
+	padding: 0 1.875em;
+    height: inherit;
+    max-width: 68.5em;
+    padding-right: 0;
+}
+
+h2.title {
+    line-height: normal;
+    margin: 1.3em 0 .7em;
+    opacity: .6;
+    color: #2b303d;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content {
+    margin-bottom: -4px;
+    margin-top: 0;
+    margin-right: -2px;
+    margin-left: -2px;
+}
+
+.content-title {
+    font-size: 14px;
+}
+
+.content .block {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 4px;
+    padding: 0 2px;
+    overflow: visible;
+    vertical-align: top;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    color: #005eb0;
+    text-decoration: none;
+    outline: none;
+    display: block;
+}
+
+.SeoContentBlocks {
+    background-color: #fff;
+    z-index: 5;
+    margin: 0 auto;
+}
+
+.snap-to-breakpoint {
+    width: 82.688em;
+}
+
+.SeoContentBlocks__block {
+    padding-bottom: 0;
+}
+
+.SeoLinksHeader__title {
+    font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif;
+    font-weight: 600;
+    color: #2b303d;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.SeoLinksHeader__subtitle {
+    font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #555964;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+    text-align: center;
+}

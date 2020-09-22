@@ -1,0 +1,96 @@
+.container {
+	padding: 0 1.875em;
+    height: inherit;
+    max-width: 68.5em;
+    padding-right: 0;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+.LatestTravelTips {
+    background-color: #f2f2f5;
+    padding: 30px 0;
+}
+
+.latest-travel-tips-header .title {
+    color: #28303d;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+.latest-travel-tips-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.latest-travel-tips-content .latest-travel-tips-item-container {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 33.333%;
+    letter-spacing: normal;
+    text-rendering: auto;
+}
+
+.latest-travel-tips-content .latest-travel-tips-item {
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.latest-travel-tips-item a {
+    color: #005eb0;
+    text-decoration: none;
+    outline: none;
+}
+
+.latest-travel-tips-content .i {
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.05) rotate(.1deg);
+    transition: all .1s linear;
+    border-radius: 4px 4px 0 0;
+}
+
+.latest-travel-tips-content .i.travel_tip_1 {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/frontdoor/brands/cheapflights/travel_tip_1.jpg?v=a1a1bccbc2465e4022c3a7e07e4c78ae7e6b64f5&cluster=5);
+}
+
+.latest-travel-tips-content .i.travel_tip_2 {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/frontdoor/brands/cheapflights/travel_tip_2.jpg?v=85c48391351cee457dc6af65b43c302730c964d7&cluster=5);
+}
+
+.latest-travel-tips-content .i.travel_tip_3 {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/frontdoor/brands/cheapflights/travel_tip_3.jpg?v=c0d19439b5680d0599ba94f36a22d87ed876253d&cluster=5);
+}
+
+.latest-travel-tips-content .title-link {
+    padding: 20px;
+    min-height: 78px;
+    color: #006dcc;
+    font-size: 16px;
+    font-weight: 400;
+    background: #fff;
+    opacity: .99;
+    height: 90px;
+}
+
+.latest-travel-tips-content .author {
+    padding: 0 20px 20px;
+    color: #535964;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 1em;
+}

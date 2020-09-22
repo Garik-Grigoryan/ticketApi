@@ -1,0 +1,219 @@
+.container {
+	padding: 0 1.875em;
+    height: inherit;
+    max-width: 68.5em;
+    padding-right: 0;
+    position: relative;
+}
+
+footer {
+    background-color: #191c24;
+}
+
+.linksBlockGrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.menuSectionGrid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuSectionGrid .header, .company-block, .contact-block, .more-block, .currency-block {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.company-block, .contact-block, .more-block {
+    display: inline-block;
+    width: 33.333%;
+}
+
+.menuSectionGrid .header h4, .company-block h6, .contact-block h6, .more-block h6, .currency-block h6 {
+    font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 0 14px;
+    font-size: 1.1666667em;
+    margin: 1.3em 0 .7em;
+}
+
+ul.listGrid {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
+    list-style: none;
+    margin: 0 0 24px 0;
+    padding: 0;
+}
+
+.company-block ul, .contact-block ul, .more-block ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.company-block ul a, .contact-block ul a, .more-block ul a {
+    color: #fff;
+    line-height: 21px;
+    text-decoration: none;
+    outline: none;
+}
+
+.col-link {
+    width: 33.333%;
+    margin-bottom: 0;
+    height: 21px;
+}
+
+.listGrid .col-link a {
+    text-align: left;
+    font-size: 11px;
+    font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #fff;
+    transition: all .1s linear;
+}
+
+.footerLinks {
+    padding: 0 0 10px;
+}
+
+.footerLinks-last-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-block {
+    width: 75%;
+}
+
+.right-block {
+    width: 25%;
+}
+
+.flag {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    margin-top: -7px;
+    width: 18px;
+    height: 14px;
+    display: inline-block;
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/layout/a-small-flag-sprite.png?v=e7a1b1c…&cluster=5);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.currency-select {
+    background: transparent;
+    color: #fff;
+    font-size: 11px;
+    line-height: 21px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.menu-social-block {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 42px;
+    padding-bottom: 11px;
+}
+
+.menu-social-block.social-links {
+    padding-top: 11px;
+    padding-bottom: 42px;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-social-block a, .menu-social-block span {
+    color: #a3adbf;
+    margin: 0 19px 0 0;
+    font-size: 12px;
+}
+
+.menu-social-block a svg {
+    width: 16px;
+    height: 16px;
+    fill: #ffffff;
+}
+
+.pricelineGroupFooter {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+}
+
+.pricelineGroupFooter-container {
+    padding-bottom: 42px;
+    padding-top: 42px;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricelineGroupFooter-container p {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.pricelineGroupFooter-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pricelineGroupFooter-container ul li {
+    background-image: url(https://www.cheapflights.com/res/images/horizon/common/layout/pcln-group-logos.png?v=3b3b95c884dd9d099c18f0585559f612b75b9bc9&cluster=5);
+    display: inline-block;
+    margin: 0 20px 20px 20px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 122px,148px;
+}
+
+.pricelineGroupFooter-container ul .booking {
+    background-position: 0 0;
+    width: 94px;
+    height: 20px;
+}
+
+.pricelineGroupFooter-container ul .kayak {
+    background-position: 0 -40px;
+    width: 89px;
+    height: 28px;
+}
+
+.pricelineGroupFooter-container ul .opentable {
+    background-position: 0 -126px;
+    width: 98px;
+    height: 24px;
+}
+
+.pricelineGroupFooter-container ul .priceline {
+    background-position: 0 -16px;
+    width: 92px;
+    height: 28px;
+}
+
+.pricelineGroupFooter-container ul .agoda {
+    background-position: 0 -70px;
+    width: 72px;
+    height: 28px;
+}
+
+.pricelineGroupFooter-container ul .retalcars {
+    background-position: 0 -96px;
+    width: 122px;
+    height: 28px;
+}

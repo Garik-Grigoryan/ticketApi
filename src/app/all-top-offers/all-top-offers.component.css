@@ -1,0 +1,64 @@
+.container {
+	padding: 0 1.875em;
+    height: inherit;
+    max-width: 68.5em;
+    padding-right: 0;
+}
+
+.all-top-offers {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.headingGrid {
+    margin: 0;
+    padding: 30px 0;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+.top-travel-offers-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: none;
+    margin: 0 -15px;
+    text-align: center;
+}
+
+.top-travel-offers-content .special-offers {
+    cursor: auto;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    background: #fff center;
+}
+
+.el-info .title {
+    font-size: 24px;
+}
+
+.el-info .description {
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 60px;
+    margin: 19px 0;
+    color: #535964;
+}
+
+.el-info a.link {
+    font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 182px;
+    float: none;
+    color: #28303d;
+    background-color: #ffd600;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 0 #006dcc;
+    display: inline-block;
+    padding: 6px 26px;
+}

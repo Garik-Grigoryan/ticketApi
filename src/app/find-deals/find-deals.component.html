@@ -1,0 +1,253 @@
+<div class="coverPhotoContainer ">
+    <div class="challenger-cover-photo " style="min-height: 551px">
+        <div id="Zl-E-backgroundWrapper">
+            <div class="coverPhotoBackground">
+            </div>
+        </div>
+        <div id="Zl-E-backgroundOverlay" class="coverPhoto overlay noOverlay " style="min-height: 551px">
+            <div class="coverPhotoInner">
+                <div class="coverPhotoContentWrapper container s-t-bp">
+                    <div class="primary">
+                        <div id="enaD-container" class="flightsVisible">
+                            <div class="valueProps">
+                                <h2
+                                    class="pageTitle valueProp flightsValueProp packagesValueProp hotelsValueProp carsValueProp">
+                                    Hello travelers. Where would you like to go?
+                                </h2>
+                            </div>
+                            <ul ngbNav #nav="ngbNav" class="nav-tabs">
+                                <li ngbNavItem>
+                                    <a ngbNavLink>Flights</a>
+                                    <ng-template ngbNavContent>
+                                        <div class="formGrid ">
+                                            <div class="col col-5-9-l col-m formContainer">
+                                                <div class="rtow">
+                                                    <form class="searchform rtow clearfix active roundtrip" name="rtow-searchform" id="ZurT-RTOWsearchform"
+                                                        aria-hidden="false">
+                                                        <div class="keel-grid keel-form search-form-grid search-form-grid-flights">
+                                                            <div class="col">
+                                                                <div class="keel-grid field-grid">
+                                                                    <div class="col col-1-2-m switch">
+                                                                        <div class="fieldBlock airportBlock originBlock">
+                                                                            <div class="inputWrapper">
+                                                                                <div class="formLabel">From</div>
+                                                                                <input id="ZurT-origin" type="text"
+                                                                                    class="Common-Widgets-Text-TextInput size-m selectTextOnFocus input-flat"
+                                                                                    aria-hidden="false" value="Yerevan (EVN)" name="origin"
+                                                                                    placeholder="Enter city or airport" aria-label="Flight origin input"
+                                                                                    smarty="true" autocomplete="off" autocapitalize="off" autocorrect="off"
+                                                                                    role="combobox" aria-autocomplete="list">
+                                                                                <input id="ZurT-origincode" type="hidden" class="aircode" autocomplete="off"
+                                                                                    name="origincode" value="EVN/28697">
+                                                                                <div tabindex="0" id="ZurT-originDepartureSwitch" class="originDepartureSwitch">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- <div class="col col-arrows"></div> -->
+                                                                    <div class="col col-1-2-m col-airport col-destination">
+                                                                        <div class="fieldBlock airportBlock destinationBlock">
+                                                                            <div class="formLabel">To</div>
+                                                                            <input id="ZurT-destination" type="text"
+                                                                                class="Common-Widgets-Text-TextInput size-m selectTextOnFocus input-flat"
+                                                                                aria-hidden="false" name="destination" placeholder="Enter city or airport"
+                                                                                aria-label="Flight destination input" smarty="true" autocomplete="off"
+                                                                                autocapitalize="off" autocorrect="off" role="combobox" aria-autocomplete="list">
+                                                                            <input id="ZurT-destinationcode" type="hidden" class="aircode" autocomplete="off"
+                                                                                name="destinationcode" value="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col button-flexi-col" style="display: none;">
+                                                                        <div class="fieldBlock buttonBlock">
+                                                                            <button id="ZurT-flexiSearch"
+                                                                                class="Common-Widgets-Button-ButtonDeprecated Common-Widgets-Button-Button size-m searchButton"
+                                                                                type="button" aria-hidden="false">
+                                                                                <span class="">Find deals</span>
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col gridCellDisplayCat">
+                                                                        <div class="displayCatBlock radioButton">
+                                                                            <span id="ZurT-displayCat"
+                                                                                class="Common-Widgets-Radio-RadioButtonSet size-m Button-none"
+                                                                                aria-activedescendant="ZurT-roundtrip-label">
+                                                                                <span id="ZurT-displayCat-set" role="radiogroup" tabindex="0"
+                                                                                    aria-label="Choose a search type:">
+                                                                                    <input class="r9-radiobuttonset hidden" id="ZurT-roundtrip"
+                                                                                        name="ZurT-displayCat" type="radio" value="roundtrip"
+                                                                                        aria-labelledby="ZurT-roundtrip-label" checked="true"
+                                                                                        aria-checked="true">
+                                                                                    <label class="r9-radiobuttonset-label r9-radiobuttonset-label-checked focus"
+                                                                                        id="ZurT-roundtrip-label" for="ZurT-roundtrip" title="Round-trip"
+                                                                                        aria-checked="false">
+                                                                                        <span class="label-text">Round-trip</span>
+                                                                                    </label>
+                                                                                    <input class="r9-radiobuttonset hidden" id="ZurT-oneway"
+                                                                                        name="ZurT-displayCat" type="radio" value="oneway"
+                                                                                        aria-labelledby="ZurT-oneway-label" aria-checked="false">
+                                                                                    <label class="r9-radiobuttonset-label" id="ZurT-oneway-label"
+                                                                                        for="ZurT-oneway" title="One-way" aria-checked="false">
+                                                                                        <span class="label-text">One-way</span>
+                                                                                    </label>
+                                                                                </span>
+                                                                                <!-- <span id="ZurT-displayCat-links">
+                                                                                </span> -->
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fieldBlock dateBlock col-field col-date single-date-picker">
+                                                                        <div id="XE0G" class="Common-Widgets-Datepicker-DateRangeInput
+                                                                                    mode-range size-m input-flat responsive
+                                                                                    " data-date-group="XE0G-group">
+                                                                            <div class="keel-grid dateRangeGrid" id="">
+                                                                                <div id="XE0G-start" class="col-start">
+                                                                                    <div id="ZurT-depart" data-date-group="XE0G-group" aria-hidden="false"
+                                                                                        class="Common-Widgets-Datepicker-DateInput size-m input-flat Inline Placeholder responsive">
+                                                                                        <div contenteditable="" id="ZurT-depart-input"
+                                                                                            class="dateInput size-m input-flat" spellcheck="false"
+                                                                                            aria-label="Departure date input">Depart</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-separator">
+                                                                                    <div id="XE0G-separator">–</div>
+                                                                                </div>
+                                                                                <div id="XE0G-end" class="col-end">
+                                                                                    <div class="endInput">
+                                                                                        <div id="ZurT-return" data-date-group="XE0G-group" aria-hidden="false"
+                                                                                            class="Common-Widgets-Datepicker-DateInput size-m input-flat Inline Placeholder responsive">
+                                                                                            <div contenteditable="" id="ZurT-return-input"
+                                                                                                class="dateInput size-m input-flat" spellcheck="false"
+                                                                                                aria-label="Return date input">Return</div>
+                                                                                            <span id="ZurT-return-clear" data-message="" class="clear hidden">
+                                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.85 9.93"
+                                                                                                    class="x-icon-x ">
+                                                                                                    <use xlink:href="#-images-horizon-common-icon-x-icon"></use>
+                                                                                                </svg></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col col-1-2-m col-travelers">
+                                                                        <div class="fieldBlock travelersBlock">
+                                                                            <a id="ZurT-travelers" href="javascript:void(0)"
+                                                                                aria-controls="ZurT-travelers_content" aria-owns="ZurT-travelers_content"
+                                                                                role="button" aria-pressed="false"
+                                                                                aria-label="Select number of travelers and cabin class" aria-haspopup="true"
+                                                                                aria-expanded="false" data-alignment="right"
+                                                                                class="Common-Widgets-Dropdown-DropdownDialog select size-m input-flat hasValue">
+                                                                                <div class="label">1 Adult, Economy</div>
+                                                                                <!-- <div class="placeholder"> -->
+                                                                                <!-- </div> -->
+                                                                                <div class="icon ">
+                                                                                    <svg class="" viewBox="0 0 8 5" xmlns="http://www.w3.org/2000/svg"
+                                                                                        stroke-linejoin="round" stroke-linecap="round" stroke-width="1.35">
+                                                                                        <path d="M7 1.053L4.027 4 1 1" stroke="currentColor" fill="none"></path>
+                                                                                    </svg>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col button-col">
+                                                                <div class="fieldBlock buttonBlock">
+                                                                    <button id="ZurT-submit"
+                                                                        class="Common-Widgets-Button-ButtonDeprecated Common-Widgets-Button-Button size-m searchButton"
+                                                                        type="submit" aria-hidden="false" aria-disabled="false">
+                                                                        <span class="">Find deals</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div id="ZurT-subscription-panel"
+                                                    class="Common-Frontdoor-EmailSubscriptionPanel Common-Frontdoor-Brands-Cheapflights-EmailSubscriptionPanel toggable">
+                                                    <div class=" fadeable-container">
+                                                        <div id="ZurT-subscription-panel-mainPanel"
+                                                            class="keel-grid subscription-grid vertical-centered-pseudo fadeable-panel">
+                                                            <div class="col col-toggle">
+                                                                <div class="Common-Widgets-Checkbox-Checkbox toggle size-m js-checkbox-container ">
+                                                                    <input id="ZurT-subscription-panel-toggleBox" type="checkbox" name="toggleBox" value=""
+                                                                        aria-disabled="false" aria-labelledby="ZurT-subscription-panel-toggleBox-label">
+                                                                    <div id="ZurT-subscription-panel-toggleBox-icon" class="icon"></div>
+                                                                    <label id="ZurT-subscription-panel-toggleBox-label" for="ZurT-subscription-panel-toggleBox"
+                                                                        class="label" data-name="toggleBox">Receive our travel deals newsletter</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-4-9 partnersContainer">
+                                                <h2 class="partnersTitle">We work with more than 300 partners to bring you better travel deals</h2>
+                                                <div class="partners">
+                                                    <div class="partners-col cheapOair large-padding-left ">
+                                                        <img
+                                                            src="https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/cheapoair.svg?v=f64fe3ffac621a31aa426b2de10f5dd098ac1590&amp;cluster=5">
+                                                    </div>
+                                                    <div class="partners-col priceLine ">
+                                                        <img
+                                                            src="https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/priceline.svg?v=0f5d2e03b646da33a164c7c1c6cc7a37543e7cc6&amp;cluster=5">
+                                                    </div>
+                                                    <div class="partners-col expedia large-padding-left ">
+                                                        <img
+                                                            src="https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/expedia.svg?v=79f4964d7dbda581e5b16c489d62d919515e89fc&amp;cluster=5">
+                                                    </div>
+                                                    <div class="partners-col justfly ">
+                                                        <img
+                                                            src="https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/justfly.svg?v=0b87d7b3a5b1957b3dcb652a996b3067c3446b4e&amp;cluster=5">
+                                                    </div>
+                                                    <div class="partners-col cheapTickets large-padding-left ">
+                                                        <img
+                                                            src="https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/cheaptickets.svg?v=c63a9f1bb5cd364aa8fa6411913b6f708adedc3f&amp;cluster=5">
+                                                    </div>
+                                                    <div class="partners-col onetravel ">
+                                                        <img
+                                                            src="https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/onetravel.svg?v=ae55c7c8afab4d75de2a1982940a8b6174a70841&amp;cluster=5">
+                                                    </div>
+                                                    <div class="partners-col travelocity large-padding-left ">
+                                                        <img
+                                                            src="https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/travelvelocity.svg?v=f74068d377702dbd871804c195b62274e0c69c29&amp;cluster=5">
+                                                    </div>
+                                                    <div class="partners-col hawaiianairlines ">
+                                                        <img
+                                                            src="https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/hawaiianairlines.svg?v=59e7fbf7e5efa62dcb86420ecd9bb63845cf1e77&amp;cluster=5">
+                                                    </div>
+                                                    <div class="partners-col emirates large-padding-left ">
+                                                        <img
+                                                            src="https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/emirates.svg?v=08f938a141cbbf5b8764350138e1dc73b5438910&amp;cluster=5">
+                                                    </div>
+                                                    <div class="partners-col qatarairways ">
+                                                        <img
+                                                            src="https://www.cheapflights.com/res/images/horizon/flights/search/brands/cheapflights/qatarairways.svg?v=b48a192cc760819296afe734a9b9d973caf39004&amp;cluster=5">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="ZurT-slidecmp2"></div>
+                                        </div>
+                                    </ng-template>
+                                </li>
+                                <li ngbNavItem>
+                                    <a ngbNavLink>Flight + Hotel</a>
+                                    <ng-template ngbNavContent>Second content</ng-template>
+                                </li>
+                                <li ngbNavItem>
+                                    <a ngbNavLink>Hotel</a>
+                                    <ng-template ngbNavContent>Car rental</ng-template>
+                                </li>
+                                <li ngbNavItem>
+                                    <a ngbNavLink>Car rental</a>
+                                    <ng-template ngbNavContent>Car rental</ng-template>
+                                </li>
+                            </ul>
+                            <div [ngbNavOutlet]="nav"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
